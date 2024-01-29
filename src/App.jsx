@@ -42,8 +42,6 @@ function App() {
     if (newWinner) {
       confetti()
       setWinner(newWinner)
-      //CUIDADO, ESTO NO SE PUEDE HACER PORQUE NO SE MOSTRARIA EL GANADOR EN EL TABLERO
-      //alert("El ganador es " + newWinner)
     } else if (checkEndGame(newBoard)) {
       setWinner(false)
     }
