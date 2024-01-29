@@ -1,5 +1,6 @@
 import { Square } from "./Square"
 
+//Basicamente lo que hace es que si hay un ganador, muestra el nombre del ganador, si no hay ninguno, muestra un empate y me traigo los parametros del useState como hooks
 export function WinnerModal({winner, resetGame}) {
 
   if (winner === null) return null
